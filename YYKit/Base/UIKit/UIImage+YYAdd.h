@@ -372,6 +372,9 @@ NS_ASSUME_NONNULL_BEGIN
                              saturation:(CGFloat)saturation
                               maskImage:(nullable UIImage *)maskImage;
 
++ (UIImage *)gradientImageWithBounds:(CGRect)bounds andColors:(NSArray*)colors andGradientType:(int)gradientType;
+
+
 @end
 
 NS_ASSUME_NONNULL_END
